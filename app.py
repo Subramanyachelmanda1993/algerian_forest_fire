@@ -18,7 +18,7 @@ model_C = pickle.load(pickle_in)
 model_R = pickle.load(R_pickle_in)
 
 # Data retrieved from DB using mongoconnection module
-dbcon = mongodbconnection(username='mongodb', password='12345')
+dbcon = mongodbconnection(username='subramanyachel', password='subramanya1478')
 list_cursor = dbcon.getdata(dbName='FireDataML', collectionName='ml_task')
 log.info('Connected to Mongodb and data retrieved')
 
