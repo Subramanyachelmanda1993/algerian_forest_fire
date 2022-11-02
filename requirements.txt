@@ -6,3 +6,6 @@ numpy
 PyYAML
 evidently
 dill
+matplotlib
+seaborn
+
