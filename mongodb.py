@@ -5,7 +5,7 @@ class mongodbconnection :
         try:
             self.username = username
             self.password = password
-            self.url = f"mongodb+srv://{self.username}:{self.password}@cluster0.bisvs.mongodb.net/?retryWrites=true&w=majority"
+            self.url = f"mongodb+srv://{self.username}:{self.password}@cluster0.wrjwh1t.mongodb.net/?retryWrites=true&w=majority"
         except Exception as e:
             raise e
 

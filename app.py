@@ -18,8 +18,8 @@ model_C = pickle.load(pickle_in)
 model_R = pickle.load(R_pickle_in)
 
 # Data retrieved from DB using mongoconnection module
-dbcon = mongodbconnection(username='subramanyachel', password='subramanya1478')
-list_cursor = dbcon.getdata(dbName="Algerian-forest-fire-DB", collectionName='fire_records')
+dbcon = mongodbconnection(username='subramanyaRohit', password='subrarohit1478')
+list_cursor = dbcon.getdata(dbName="ineuron", collectionName='fire_records')
 log.info('Connected to Mongodb and data retrieved')
 
 # Data From MongoDB is used for Standardization
